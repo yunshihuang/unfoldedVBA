@@ -38,6 +38,6 @@ demo_unfoldedVBA.ipynb: shows how to test and train unfoldedVBA for grayscale im
 demo_unfoldedVBA_RGB.ipynb: shows how to test and train unfoldedVBA for color images
 
 ## Authors
-Yunshi HUANG - e-mail: yunshi.huang@centralesupelec.fr - PhD Student\
+Yunshi Huang - e-mail: yunshi.huang@centralesupelec.fr - PhD Student\
 Emilie Chouzenoux -[website](http://www-syscom.univ-mlv.fr/~chouzeno/)\
 Jean-Christophe Pesquet -[website](https://pesquet.info/)
