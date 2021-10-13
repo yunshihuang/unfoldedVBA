@@ -27,7 +27,8 @@ sudo apt install libgl1-mesa-glx
 The datasets are in https://www.dropbox.com/sh/3hai04tkubjoxa3/AAASNdVsrwV3SoyS2BRtsVRKa?dl=0. Please download this folder and put it in the main folder _unfoldedVBA_. The subfolder _Testsets_ contains the grayscale testsets and the subfolder _Testsets_RGB_ contains the color testsets. 
 
 ## Training
-To save the time during the trainings, there are some constant variables saved in a .mat file in https://www.dropbox.com/s/lyxf4zyi1nb06hb/useful_tools.mat?dl=0. Please download this file and put it in the subfolder _Model_files_. 
+To save the time during the trainings, there are some constant variables saved in a .mat file in https://www.dropbox.com/s/lyxf4zyi1nb06hb/useful_tools.mat?dl=0. Please download this file and put it in the subfolder _Model_files_. Please download the .txt file in https://www.dropbox.com/s/19q428p3zejqs45/KmtK0_dict.txt?dl=0 and put it in the main folder _unfoldedVBA_.
+
 
 ## Test
 The learned models are in https://www.dropbox.com/sh/0e1gzsalme04pf4/AABaZ4D0Qna9z-M1o2D7xpAZa?dl=0. Please download this folder and put it in the main folder _unfoldedVBA_. The subfolder _Gaussian_ contains the saved models for grayscale images and the subfolder _Mixed_ contains the saved models for color images.
