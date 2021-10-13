@@ -36,3 +36,8 @@ The learned models are in https://www.dropbox.com/sh/0e1gzsalme04pf4/AABaZ4D0Qna
 ## Demo file
 demo_unfoldedVBA.ipynb: shows how to test and train unfoldedVBA for grayscale images\
 demo_unfoldedVBA_RGB.ipynb: shows how to test and train unfoldedVBA for color images
+
+## Authors
+Yunshi HUANG - e-mail: yunshi.huang@centralesupelec.fr - PhD Student
+Emilie Chouzenoux -http://www-syscom.univ-mlv.fr/~chouzeno/
+Jean-Christophe Pesquet -https://pesquet.info/
