@@ -204,10 +204,7 @@ class VBA_class(nn.Module):
             self.CreateLoader(block=0)
             # defines the optimizer
             lr        = self.lr_first_layer #learnig rate
-            optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad,self.parameters()),lr=lr)
-#             params = list(map(lambda x: x[1],list(filter(lambda kv: kv[0] in self.my_list, self.named_parameters()))))
-#             base_params = list(map(lambda x: x[1],list(filter(lambda kv: kv[0] not in self.my_list, self.named_parameters()))))
-#             optimizer = torch.optim.Adam([{'params': base_params}, {'params': params, 'lr': 5e-3}], lr=lr) 
+            optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad,self.parameters()),lr=lr) 
             #==========================================================================================================
             # for the first layer
             # trains for several epochs
@@ -345,9 +342,6 @@ class VBA_class(nn.Module):
             # defines the optimizer
             lr        = self.lr_greedy
             optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad,self.parameters()),lr=lr)
-#             params = list(map(lambda x: x[1],list(filter(lambda kv: kv[0] in self.my_list, self.named_parameters()))))
-#             base_params = list(map(lambda x: x[1],list(filter(lambda kv: kv[0] not in self.my_list, self.named_parameters()))))
-#             optimizer = torch.optim.Adam([{'params': base_params}, {'params': params, 'lr':1e-3}], lr=lr) 
             #==========================================================================================================
             # trains for several epochs
             for epoch in range(0,self.nb_epochs[1]):
