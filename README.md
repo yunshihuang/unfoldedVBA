@@ -1,6 +1,6 @@
 # unfoldedVBA
 ## Unrolled Variational Bayesian Algorithm for Image Blind Deconvolution
-This repository contains the Pytorch implementation of the unrolled variational Bayesian algorithm applied to the problem of image blind deconvolution for grayscale or color images with the existence of the Gaussian noise.
+This repository contains the Pytorch implementation of an unrolled variational Bayesian algorithm applied to the problem of image blind deconvolution for grayscale or color images corrupted by unknown stationnary blur and additive Gaussian noise with unknown variance.
 
 Here is one example that displays the degraded image, the groundtruth image and the restored image from unfoldedVBA respectively. 
 <p float="left">
@@ -27,7 +27,7 @@ sudo apt install libgl1-mesa-glx
 The datasets are in [Datasets](https://www.dropbox.com/sh/3hai04tkubjoxa3/AAASNdVsrwV3SoyS2BRtsVRKa?dl=0). Please download this folder and put it in the main folder _unfoldedVBA_. The subfolder _Testsets_ contains the grayscale testsets and the subfolder _Testsets_RGB_ contains the color testsets. 
 
 ## Training
-To save the time during the trainings, there are some constant variables saved in a .mat file in [useful_tools.mat](https://www.dropbox.com/s/lyxf4zyi1nb06hb/useful_tools.mat?dl=0). Please download this file and put it in the subfolder _Model_files_. Please download the .txt file in [KmtK0_dict](https://www.dropbox.com/s/19q428p3zejqs45/KmtK0_dict.txt?dl=0) and put it in the main folder _unfoldedVBA_.
+To save the time during the trainings, we share some useful constant variables in the .mat file [useful_tools.mat](https://www.dropbox.com/s/lyxf4zyi1nb06hb/useful_tools.mat?dl=0). Please download this file and put it in the subfolder _Model_files_. Please download the .txt file in [KmtK0_dict](https://www.dropbox.com/s/19q428p3zejqs45/KmtK0_dict.txt?dl=0) and put it in the main folder _unfoldedVBA_.
 
 
 ## Test
