@@ -2,6 +2,7 @@
 ## Unrolled Variational Bayesian Algorithm for Image Blind Deconvolution
 This repository contains the Pytorch implementation of the unrolled variational Bayesian algorithm applied to the problem of image blind deconvolution for grayscale or color images with the existence of the Gaussian noise.
 
+<img src="examples/y.png" width="100">
 
 ## Dependencies
 Python version 3.6.10\
