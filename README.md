@@ -39,5 +39,5 @@ demo_unfoldedVBA_RGB.ipynb: shows how to test and train unfoldedVBA for color im
 
 ## Authors
 Yunshi Huang - e-mail: yunshi.huang@centralesupelec.fr - PhD Student\
-Emilie Chouzenoux -[website](http://www-syscom.univ-mlv.fr/~chouzeno/)\
+Emilie Chouzenoux -[website](https://pages.saclay.inria.fr/emilie.chouzenoux/)\
 Jean-Christophe Pesquet -[website](https://pesquet.info/)
