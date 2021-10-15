@@ -1,6 +1,6 @@
 # unfoldedVBA
 ## Unrolled Variational Bayesian Algorithm for Image Blind Deconvolution
-This repository contains the Pytorch implementation of an unrolled variational Bayesian algorithm applied to the problem of image blind deconvolution for grayscale or color images corrupted by unknown stationnary blur and additive Gaussian noise with unknown variance.
+This repository contains the Pytorch implementation of the unrolled variational Bayesian algorithm [1] applied to the problem of image blind deconvolution for grayscale or color images corrupted by unknown stationnary blur and additive Gaussian noise with unknown variance.
 
 Herebelow is an example that displays the degraded image (left), the groundtruth image with the groundtruth blur (middle) and the restored image and estimated blur from unfoldedVBA (right), respectively. 
 <p float="left">
@@ -8,6 +8,8 @@ Herebelow is an example that displays the degraded image (left), the groundtruth
 <img src="examples/x0_blur.png" width="200">
 <img src="examples/mk_blur.png" width="200">
 </p>
+
+[1] Yunshi Huang, Emilie Chouzenoux, Jean-Christophe Pesquet. Unrolled Variational Bayesian Algorithm for Image Blind Deconvolution. [<a target="_blank" href="http://arxiv.org/abs/2110.07202">Article</a>] 
 
 ## Dependencies
 Python version 3.6.10\
